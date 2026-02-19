@@ -15,6 +15,11 @@ export ANDROID_MAJOR_VERSION=r
 export KCFLAGS=-w
 export CONFIG_SECTION_MISMATCH_WARN_ONLY=y
 
+if [ -f compile.log ]; then
+    rm -r compile.log
+    make clean
+fi
+
 BUILD_START=$(date +%s)
 
 function send_telegram() {
