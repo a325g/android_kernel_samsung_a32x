@@ -5234,7 +5234,6 @@ CONFIG_SPU_VERIFY=y
 #
 # samsung Performace manager
 #
-# CONFIG_KPERFMON is not set
 # CONFIG_CHARGER_MTK is not set
 # CONFIG_ICD is not set
 CONFIG_SEC_VIBRATOR=y
