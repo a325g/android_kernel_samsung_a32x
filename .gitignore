@@ -39,6 +39,7 @@
 *.symtypes
 *.tar
 *.xz
+*.log
 Module.symvers
 modules.builtin
 
@@ -54,7 +55,9 @@ modules.builtin
 /vmlinuz
 /System.map
 /Module.markers
-
+/prebuilts
+/prebuilt
+/out
 #
 # RPM spec file (make rpm-pkg)
 #
